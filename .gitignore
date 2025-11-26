@@ -1,0 +1,80 @@
+# ----------------------------------------
+# Python caches
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# ----------------------------------------
+# Virtual environments
+# ----------------------------------------
+.venv/
+venv/
+env/
+
+# ----------------------------------------
+# Jupyter Notebook checkpoints
+# ----------------------------------------
+.ipynb_checkpoints/
+
+# ----------------------------------------
+# System / Editor files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ----------------------------------------
+# Logs
+# ----------------------------------------
+*.log
+
+# ----------------------------------------
+# CellPhoneDB Related Data
+# (large files NOT for GitHub)
+# ----------------------------------------
+cpdb_out/
+new_DEGs_analysis_output/
+DEGs/
+cellphonedb.zip
+
+# AnnData and matrix files
+*.h5ad
+*.mtx
+*.loom
+*.h5
+
+# DEGs intermediate text files
+I_made_these_txt_files/
+*.txt
+
+# ----------------------------------------
+# Large scientific files
+# ----------------------------------------
+*.csv
+*.tsv
+*.xlsx
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# ----------------------------------------
+# Plot outputs
+# ----------------------------------------
+*.png
+*.pdf
+*.svg
+
+# ----------------------------------------
+# Machine learning / temp folders (optional)
+# ----------------------------------------
+runs/
+checkpoints/
