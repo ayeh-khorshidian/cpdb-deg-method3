@@ -59,6 +59,8 @@ numpy
 matplotlib
 cellphonedb
 
+---
+
 ## 📂 Expected Folder Structure Under BASE_DIR
 Before running the pipeline, ensure your BASE_DIR contains:
 BASE_DIR/
@@ -73,6 +75,8 @@ BASE_DIR/
 │     └── metadata.tsv                   # Cell metadata
 │
 └── cellphonedb.zip                      # CPDB database
+
+---
 
 ## 🚀 How to Run the Pipeline
 1. Clone this repository
@@ -96,6 +100,8 @@ Summarize results
 Create plots
 Save everything under new_DEGs_analysis_output/
 
+---
+
 ## 🧪 Output
 Under new_DEGs_analysis_output/analysis_degs_method3/ you will find:
 degs_degs_method_means.txt
@@ -108,14 +114,20 @@ top10_bar.png
 Each contrast is placed in its own folder, e.g.:
 DEG_Results_2025-11-18_R+1_vs_preflight/
 
+---
+
 ## 🧬 What Are DEGs?
 DEG = Differentially Expressed Gene
 A gene that shows statistically significant up- or down-regulation between two conditions.
 CellPhoneDB Method 3 uses DEGs to highlight ligand–receptor interactions that are driven by transcriptional changes.
 
+---
+
 ## 📄 License
 This project is licensed under the MIT License.  
 See the `LICENSE` file for details.
+
+---
 
 ## 🙋 Questions / Improvements
 If you want to:
