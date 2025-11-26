@@ -59,7 +59,7 @@ numpy
 matplotlib
 cellphonedb
 
-📂 Expected Folder Structure Under BASE_DIR
+## 📂 Expected Folder Structure Under BASE_DIR
 Before running the pipeline, ensure your BASE_DIR contains:
 BASE_DIR/
 │
@@ -74,7 +74,7 @@ BASE_DIR/
 │
 └── cellphonedb.zip                      # CPDB database
 
-🚀 How to Run the Pipeline
+## 🚀 How to Run the Pipeline
 1. Clone this repository
 git clone https://github.com/<your-username>/cpdb-deg-method3.git
 cd cpdb-deg-method3
@@ -96,7 +96,7 @@ Summarize results
 Create plots
 Save everything under new_DEGs_analysis_output/
 
-🧪 Output
+## 🧪 Output
 Under new_DEGs_analysis_output/analysis_degs_method3/ you will find:
 degs_degs_method_means.txt
 degs_degs_method_pvalues.txt
@@ -108,16 +108,16 @@ top10_bar.png
 Each contrast is placed in its own folder, e.g.:
 DEG_Results_2025-11-18_R+1_vs_preflight/
 
-🧬 What Are DEGs?
+## 🧬 What Are DEGs?
 DEG = Differentially Expressed Gene
 A gene that shows statistically significant up- or down-regulation between two conditions.
 CellPhoneDB Method 3 uses DEGs to highlight ligand–receptor interactions that are driven by transcriptional changes.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.  
 See the `LICENSE` file for details.
 
-🙋 Questions / Improvements
+## 🙋 Questions / Improvements
 If you want to:
 Add advanced plots (network graphs, top ligand–receptor pairs)
 Add Nextflow / Snakemake workflow version
