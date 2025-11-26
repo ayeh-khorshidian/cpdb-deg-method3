@@ -32,8 +32,9 @@ The workflow includes DEG preprocessing, metadata assembly, CellPhoneDB executio
   - All paths are constructed using a single `BASE_DIR` to ensure portability, safety, and easy GitHub sharing.
 
 ---
-```
+
 ## 📁 Repository Structure
+```
 cpdb-deg-method3/
 │
 ├── cpdb_deg_method3.py # Main pipeline script
