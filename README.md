@@ -32,7 +32,7 @@ The workflow includes DEG preprocessing, metadata assembly, CellPhoneDB executio
   - All paths are constructed using a single `BASE_DIR` to ensure portability, safety, and easy GitHub sharing.
 
 ---
-
+```
 ## 📁 Repository Structure
 cpdb-deg-method3/
 │
@@ -40,7 +40,7 @@ cpdb-deg-method3/
 ├── requirements.txt # Python dependencies
 ├── README.md # Documentation (you are here)
 └── .gitignore # Ignore venv, outputs, caches, etc.
-
+```
 ---
 
 ## 📥 Requirements
@@ -63,6 +63,7 @@ cellphonedb
 
 ## 📂 Expected Folder Structure Under BASE_DIR
 Before running the pipeline, ensure your BASE_DIR contains:
+```
 BASE_DIR/
 │
 ├── DEGs/                                # Input DEG CSV files
@@ -75,7 +76,7 @@ BASE_DIR/
 │     └── metadata.tsv                   # Cell metadata
 │
 └── cellphonedb.zip                      # CPDB database
-
+```
 ---
 
 ## 🚀 How to Run the Pipeline
