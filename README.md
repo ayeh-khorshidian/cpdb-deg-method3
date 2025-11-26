@@ -58,7 +58,7 @@ pandas
 numpy
 matplotlib
 cellphonedb
-
+```
 ---
 
 ## 📂 Expected Folder Structure Under BASE_DIR
