@@ -1,4 +1,9 @@
 # CellPhoneDB DEG Method 3 Pipeline
+[![License: MIT](https://img.shields.io/github/license/ayeh-khorshidian/cpdb-deg-method3)](https://github.com/ayeh-khorshidian/cpdb-deg-method3/blob/main/LICENSE)
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![Repo Status](https://img.shields.io/badge/status-active-success)
+![Last Commit](https://img.shields.io/github/last-commit/ayeh-khorshidian/cpdb-deg-method3)
+
 
 This repository contains a fully reproducible Python pipeline for running **CellPhoneDB DEG Method 3**, a ligand–receptor interaction analysis that incorporates **differentially expressed genes (DEGs)** across cell types.  
 The workflow includes DEG preprocessing, metadata assembly, CellPhoneDB execution, QC summaries, and basic visualizations.
